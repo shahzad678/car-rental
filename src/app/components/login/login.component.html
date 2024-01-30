@@ -1,0 +1,71 @@
+<div class="container-fluid pooins">
+<div class="row">
+    <div class="col-6">
+        <div class="image" style="background: rgba(52, 161, 244, 1);">
+            <img src="../../../assets/images/Cover (1).png" class="img-fluid" alt="..." >
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-8 col-sm-10">
+        <div class="loginformvalue mt-5">
+            <div class="text-center">
+                <img src="../../../assets/images/Group.png" alt="" style="width: 100px;">
+                <p style="margin-top: 15px;font-weight: bold;">Login in to your account</p>
+                <p style="font-size: 11px;margin-top: -16px;opacity: 0.7;">Welcome Back! Plz enter your detail</p>
+              </div>
+              <div class="formgroup">
+                  
+                     
+                <form #loginform="ngForm"  (ngSubmit)=" usersloginform(loginform.value)" >
+                      <div class="mb-3">
+                          <label  class="form-label">Email</label>
+                          <input type="email" class="form-control"  #email="ngModel" ngModel name="email" placeholder="Enter Your Email">
+                      </div>
+                      <div class="mb-3">
+                          <label  class="form-label">Password</label>
+                          <input type="password" class="form-control"  #password="ngModel" ngModel name="password" placeholder="Enter Your Password">
+                      </div>
+                      <div class="forgotpassword">
+                         <div>
+                          <input type="checkbox" class="mx-2"> <span>Remember me</span>
+                         </div>
+                         <div>
+                          <p style="color: lightskyblue" routerLink="/forgotemail">Forgot Password</p>
+                         </div>
+      
+                          
+                      </div>
+                      <div class="loginbtton mt-2">
+                        <button class="btn btn-primary loginbtton">Llog In</button>
+                      </div>
+                      <div class="text-center mt-2">
+                          <p class="mt-2">Dont't have an account? <span style="color: rgb(31, 135, 176)" routerLink="/signup">Signup</span></p>
+                      </div>
+                      <div class="text-center mb-3">
+                          <span style="color: rgb(81, 183, 224);">OR</span>
+                      </div>
+                    </form>
+                  
+      
+                  <div class="anothersignin mb-3">
+                      <div class="signwithgoggle text-center">
+                        <button class="btn" style="width: 100%;background-color: rgb(244, 244, 242);">
+                          <img src="../../../assets/images/googlepng.png " alt="" style="width: 30px;"> <span>Sign In With Google</span>
+                        </button>
+                      </div>
+                  </div>
+                      <div class="signwithgoggle text-center mb-3">
+                          <button class="btn" style="width: 100%;background-color: rgb(243, 243, 241);">
+                            <img class="ms-3" src="../../../assets/images/faceboo png.png" alt="" style="width: 30px;"> <span>Sign In With Facebook</span>
+                          </button>
+                        </div>
+                        <div class="signwithgoggle text-center mb-5">
+                          <button class="btn" style="width: 100%;background-color: rgb(242, 242, 239);">
+                            <img src="../../../assets/images/googlepng.png " alt="" style="width: 30px;" > <span>Sign In With Apple</span>
+                          </button>
+                        </div>
+                  
+              </div>
+            </div>
+        </div>
+</div>
+</div>

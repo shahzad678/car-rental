@@ -1,0 +1,39 @@
+.uploadimage{
+    display: flex;    
+    }
+    .imagecontainer{
+    background-color: white;
+    border-radius: 5px;    
+    }
+    input{
+        background: rgba(246, 247, 249, 1);
+    }
+    .maincontainer{
+    background-color: white;
+    border-radius: 6px;margin-top: 7px;    
+    }
+    .drivinglicence{
+    background-color: white;
+    border-radius: 5px;
+    
+    }
+    .uploaadimage{
+    background-color: rgb(234, 234, 234);
+    height: 130px;
+    border-radius: 5px;
+    
+    
+    }
+    .profiledetailcontainer{
+    background-color: white;
+       
+    }
+
+.container{
+ width: 1209px;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: red;
+ margin-top: 80px;  
+
+}

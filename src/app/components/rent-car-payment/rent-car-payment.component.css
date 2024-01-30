@@ -1,0 +1,99 @@
+.enterinfo{
+    display: flex;
+    justify-content: space-between;
+    opacity: O.8;    
+    }
+    .input{
+        background: rgba(246, 247, 249, 1);
+
+    }
+    /* ............................................. */
+    .rentaldate{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -13px;
+    }
+    .selectpymentmethod{
+    display: flex;
+    justify-content: space-between;  
+    margin-top: -10px;  
+    }
+     /* ............................................. */
+    .buycrediccard{
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    .carddetail{
+    width: auto;
+    background: rgba(246, 247, 249, 1);
+
+    border-radius: 4px;
+    
+    }
+    .form-label{
+    font-weight: bold;    
+    }
+    .BUYPAYPALMETHOD{
+    width: auto;
+    height: 30px;
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;  
+    align-items: center; 
+    }
+    .buybitcoinmethod{
+        width: auto;
+        height: 30px;
+        background: rgba(246, 247, 249, 1);
+
+        display: flex;
+        justify-content: space-between;
+        border-radius: 4px;  
+        align-items: center;   
+        margin-bottom: 10px;
+    }
+    
+    /* ...............................confirmation */
+    .step4of4{
+        display: flex;
+        justify-content: space-between;
+        opacity: 0.7;
+        margin-top: -10px;
+    
+    }
+    .form-check{
+    display: flex;
+    align-items: center;
+    width: auto; 
+    height: 35px;
+    background: rgba(246, 247, 249, 1);
+    border-radius: 4px;
+    }
+    
+    /* .................................rental summer */
+    .allrentalsummery{
+     background-color: white;
+     border-radius: 5px;   
+    }
+    .summeryrating{
+    display: flex;
+        
+    }
+    .coverimage{
+    width: 80px;
+    height: 80px;    
+    }
+    .subtotal{
+    display: flex;
+    justify-content: space-between;    
+    }
+    .tax{
+        display: flex;
+        justify-content: space-between;   
+    }
+    .tptalprice{
+    display: flex;
+    justify-content: space-between;    
+    }

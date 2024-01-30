@@ -1,0 +1,80 @@
+.navbar{
+background-color: white;
+}
+.navbar-collapse{
+gap: 4em;    
+}
+.navbar-nav{
+gap: 4em;   
+font-size: 18px; 
+color: red;
+}
+.nav-link{
+    color: rgba(0, 0, 0, 1);
+}
+.profile{
+height: 25px;
+
+}
+.pooins{
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+ /* Custom CSS for the image */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Custom CSS for the dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Custom CSS for the dropdown button */
+  .dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Custom CSS for the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Custom CSS for the dropdown links */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Custom CSS for the dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Custom CSS for the profile icon */
+  .fauser {
+    color: #007bff;
+  }
+  
+.drp{
+position: relative;  
+top: 0px;
+left: 60em;
+}

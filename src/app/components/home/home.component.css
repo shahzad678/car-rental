@@ -1,0 +1,210 @@
+.groupimage{
+    display: flex;
+    
+    } 
+    
+    .imagefrp1{
+  
+    width: 477px;
+    height: 453px;
+    }
+    .imagefrp2{
+    position: relative;
+    width: 457px;
+    height: 415px;
+    right: 319px;
+    top: 15px;
+    z-index: 1000;
+    }
+    .imagefrp3{
+     position: relative;
+     top: -10px;  
+     right: 890px; 
+     z-index: 20000;
+    }
+
+
+ .pooins{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  
+/* ......................................................card css................................................... */
+    .title{
+        display: flex;
+        justify-content: space-between;
+        /* padding-right: 16px;
+        padding-left: 16px; */
+        padding: 6px 16px 0px 16px;
+        
+        }
+        .heart{
+            color: red;
+        
+        }
+    
+        .card{
+            border: none;
+            background-color:rgba(255, 255, 255, 1);
+          
+          
+        }
+        .cardetail{
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Jakarta Sans', sans-serif;
+
+        }
+        .carprice{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .image{
+         width: 170px;
+         height: 108px; 
+         display: flex;
+         justify-content: center; 
+        }
+
+  
+.cardtop{
+display: flex;
+justify-content: space-between;    
+}        
+
+
+.font1 {
+    font-family: 'Jakarta Sans', sans-serif;
+    /* Add other styles as needed */
+}
+.threeitems{
+display: flex;
+justify-content: space-between;   
+color: rgba(144, 163, 191, 1);
+font-family: 'Jakarta Sans', sans-serif;
+
+}
+
+.drivercontainer{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    margin-top: 100px;
+    /* background-image: url('/assets/images/driver-1/ 1.png'); */
+
+    
+    font-family: 'Poppins', sans-serif;
+    }
+    .nextinput{
+    width:600px ;
+    height: 40px;
+    }
+    .nextbutton{
+    position: relative;
+    left: -78px;
+    top: 1px;
+    height: 38px;
+    width: 77px;
+    }
+    .cgarcterimage{
+        width: 290px;
+        color: white;
+        margin-top: 20px;
+        padding-left: 30px;
+    }
+    .groupimage{
+    display: flex;
+    
+    } 
+   
+
+.vectorimagegrp{
+    width: 29px;
+    position: relative;
+    right: 81px
+    ;
+    }
+    
+    @media (max-width: 768px) {
+    .nextbutton{
+      position: relative;
+      left: -72px;
+      height: 38px;
+      width: 77px;
+            }
+    
+    .nextinput{
+     width:100% ;
+    
+              } 
+              .imagefrp1{
+                margin-left: 70px;
+                }
+                .imagefrp2{
+                position: relative;
+                right: 120px;
+                z-index: 1000;
+                }
+                .imagefrp3{
+                 position: relative;
+                 top: 34px;  
+                 right: 330px; 
+                 z-index: 20000;
+                }         
+    
+    }
+    @media  (max-width: 440px) and  (min-width: 270px)  {
+    .nextbutton{
+     position: relative;
+     left: -69px;
+            }
+    .nextinput{
+     width:100% ;
+    
+            }  
+            .imagefrp1{
+                margin-left: 50px;
+                }
+                .imagefrp2{
+                position: relative;
+                right: 120px;
+                z-index: 1000;
+                }
+                .imagefrp3{
+                 position: relative;
+                 top: 34px;  
+                 right: 330px; 
+                 z-index: 20000;
+                }    
+    
+    }
+    @media (max-width: 380px) {
+        /* .nextbutton{
+          position: relative;
+          left: -72px;
+          height: 38px;
+          width: 77px;
+                }
+        
+        .nextinput{
+         width:100% ;
+        
+                  }  */
+                  .imagefrp1{
+                    margin-left: 10px;
+                    }
+                    .imagefrp2{
+                    position: relative;
+                    right: 120px;
+                    z-index: 1000;
+                    }
+                    .imagefrp3{
+                     position: relative;
+                     top: 34px;  
+                     right: 330px; 
+                     z-index: 20000;
+                    }         
+        
+        }
+    
+    

@@ -1,0 +1,84 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "productname": "pen ",
+      "price": "1200",
+      "mobile": 12345677,
+      "discription": "this pen is very beautifull"
+    },
+    {
+      "id": 2,
+      "productname": "fasion",
+      "price": "13456",
+      "mobile": 4567899654,
+      "discription": "this product is very beautifull"
+    },
+    {
+      "id": 3,
+      "productname": "fasion",
+      "price": "13456",
+      "mobile": 4567899654,
+      "discription": "this product is very beautifull"
+    },
+    {
+      "id": 4,
+      "productname": "fasion",
+      "price": "13456",
+      "mobile": 4567899654,
+      "discription": "this product is very beautifull"
+    },
+    {
+      "id": 5,
+      "productname": "fasion",
+      "price": "13456",
+      "mobile": 4567899654,
+      "discription": "this product is very beautifull"
+    },
+    {
+      "id": 6,
+      "productname": "fasion",
+      "price": "13456",
+      "mobile": 4567899654,
+      "discription": "this product is very beautifull"
+    },
+    {
+      "id": 7,
+      "productname": "fasion",
+      "price": "13456",
+      "mobile": 4567899654,
+      "discription": "this product is very beautifull"
+    },
+    {
+      "id": 8,
+      "productname": "bag",
+      "price": "400",
+      "mobile": 1234567,
+      "discription": "this bag is very beautifull"
+    },
+    {
+      "id": 9,
+      "productname": "laptop",
+      "price": "500000",
+      "mobile": 123456789,
+      "discription": "lenavo company laptop"
+    },
+    {
+      "id": 10,
+      "productname": "cloths",
+      "price": "20000",
+      "mobile": 13469865,
+      "discription": "this is very beautifull cloth"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

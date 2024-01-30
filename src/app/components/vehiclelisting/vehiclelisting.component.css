@@ -1,0 +1,64 @@
+.rangeMETER{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10PX;
+    }
+    .RANGE{
+    margin-top: -10px;
+    }
+    .newused{
+    width: 50px;
+    height: 33px;
+    background-color: white;
+    font-size: 13px;
+    padding: 8px 5px 4px 12px;
+     opacity: 0.9;
+    
+    }
+    
+    /* .................................card css */
+    .title{
+        display: flex;
+        justify-content: space-between;
+        
+        }
+        .heart{
+            color: red;
+        
+        }
+        .carcatogry{
+        opacity: 0.5;
+        margin-top: -10px;
+        
+        }
+        .threeitems{
+            display: flex;
+            justify-content: space-between;
+            opacity: 0.5;
+            margin-top: -19px;
+        }
+        .card{
+            border: none;
+          
+        }
+        .cardetail{
+            display: flex;
+            justify-content: space-between;
+         
+        }
+        .carprice{
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .cardimage{
+            height: 150px;
+        }
+
+        .pooins{
+            font-family: 'Poppins', sans-serif;
+          }
+
+          .font1 {
+            font-family: 'Jakarta Sans', sans-serif;
+            /* Add other styles as needed */
+        }

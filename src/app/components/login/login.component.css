@@ -1,0 +1,22 @@
+.pooins{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .loginbtton{
+    width: 100%;    
+    }
+.forgotpassword{
+    display: flex;
+    justify-content: space-between;
+}    
+.loginpage{
+width: 600px;    
+position: relative;
+left: 270px;
+    
+}
+.loginformvalue{
+    width: 300px;  
+    margin-left: auto;
+    margin-right: auto; 
+}

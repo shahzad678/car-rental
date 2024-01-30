@@ -1,0 +1,116 @@
+.maskimage{
+    width: 100%;
+    object-fit: contain;
+    width: 500px;
+}
+.allmaskgroupimage{
+    display: flex;
+    justify-content: space-between;
+}
+.coverimage{
+    width: 136px;
+    height: 112px;
+    border-radius: 8px;
+    margin-inline-start: 5px; 
+   }
+
+   /* ............. */
+.carname{
+display: flex;
+justify-content: space-between;
+   }
+.capicity{
+display: flex;
+justify-content: space-between;
+
+}   
+.pricedetail{
+display: flex;
+justify-content: space-between;   
+align-items: center; 
+}
+.CARALLDETAIL{
+width: 100%;
+height: 430px;
+background-color: white;
+border-radius: 5px;
+}
+
+
+.carcard1{
+width:200px ;    
+}
+/* comments////////////////////////////////////// */
+.buyer{
+width: 50px;
+height: 50px;
+border-radius: 50%;    
+}
+.buyername{
+ display: flex;
+ justify-content: space-between;   
+ 
+}
+.buyerpost{
+display: flex;
+justify-content: space-between;    
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,recet car container */
+.vieedetail{
+display: flex;
+justify-content: space-between;    
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    .heart{
+        color: red;
+    
+    }
+    .carcatogry{
+    opacity: 0.5;
+    margin-top: -17px;
+    
+    }
+    .threeitems{
+        display: flex;
+        justify-content: space-between;
+        opacity: 0.5;
+    }
+    .card{
+        border: none;
+      
+    }
+    .cardetail{
+        display: flex;
+       
+    }
+    .carprice{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .cardimage{
+        height: 100px;
+    }
+
+
+    .pooins{
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .CarPrice{
+       display: flex;
+       justify-content: space-between; 
+      }
+      .rentnowbutton{
+        width: 90px;
+        padding: 0%;
+        height: 33px;
+        margin-right: 10px;
+      }
+.cardimage2{
+width: 200px;    
+}      

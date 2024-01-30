@@ -1,0 +1,13 @@
+.container-fluid{
+    background-color: rgb(234, 234, 234);
+    }
+    .card{
+    display: flex;
+    justify-content: space-between;  
+    background-color: white;
+    border: none;  
+    }
+    .threeitems{
+        display: flex;
+    }
+        

@@ -1,0 +1,329 @@
+<div class="container-fluid pooins" style="background-color:rgba(246, 247, 249, 1);">
+<div class="row">
+    <div class="col-lg-3 col-md-5 col-sm-6 col-12" style="margin-top: 15px;">
+        <div class="mb-3 mt-5">
+            <label for="exampleInputEmail1" class="form-label pooins" >Make</label>
+            <select class="form-select form-select-lg mb-3" aria-label="Large select example" style="color:rgba(163, 170, 174, 1);">
+                <option selected >Select Maker</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" >Model</label>
+            <select class="form-select form-select-lg mb-3" aria-label="Large select example" style="color:rgba(163, 170, 174, 1);">
+                <option selected>Select Model</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+        <div class="pricerange">
+            <p style="margin-top: -9PX;">Price Range per Day(pkr) </p>
+        </div>
+        <div class="rangeMETER">
+            <p>50,000</p>
+            <p>500M</p>
+        </div>
+        <div class="RANGE">
+            <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3" >
+        </div>
+        <div class="minmaxrange">
+            <p style="opacity: 0.7;">Minimum Range 5000 Rs</p>
+            <p style="opacity: 0.7;">Maximum Range 5000 Rs</p>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" >Registraton City</label>
+            <select class="form-select form-select-lg mb-3" aria-label="Large select example" style="color:rgba(163, 170, 174, 1);">
+                <option selected>All</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" >Car Document </label>
+            <select class="form-select form-select-lg mb-3" aria-label="Large select example" style="color:rgba(163, 170, 174, 1);">
+                <option selected>All</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" >Transmission</label>
+            <select class="form-select form-select-lg mb-3" aria-label="Large select example" style="color:rgba(163, 170, 174, 1);">
+                <option selected>All</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+        <div class="condation">
+            <p >Condation</p>
+            <div class="d-flex">
+                <p class="newused">New </p> &nbsp; &nbsp;
+                <p class="newused">Used</p>
+            </div>
+            <div class="fuel">
+                <p >Fuel</p>
+            </div>
+
+            <div class="d-flex">
+                <p class="newused">Petrol </p> &nbsp; &nbsp;
+                <p class="newused">Diesel </p> &nbsp; &nbsp;
+                <p class="newused">Cng </p> &nbsp; &nbsp;
+                <p class="newused">Lpg </p> &nbsp; &nbsp;
+                <p class="newused">Electric </p> &nbsp; &nbsp;
+            </div>
+            <div class="d-flex">
+                <p class="newused">Hybrid </p> 
+               
+            </div>
+            <div class="button">
+                <button class="btn btn-primary mb-5" style="width: 100%;" routerLink="/carrentdetail">Submit</button>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+        
+    <div class="col-lg-9 col-md-7 col-sm-6 col-12" >
+        
+    <div class="row">
+        <div class="col-lg-4 col-md-6col-12">
+          <div class="card mt-5">
+            <div class="title pt-2">
+                <p  class="font1" style="color: rgba(26, 32, 44, 1);font-weight: bold; padding-left: 15px;">Swift</p>
+                <fa-icon  class="heart font1" [icon]="faHeart"  style="font-weight: bold;padding-top: -4px;padding-right: 15px;"></fa-icon>
+            </div>
+            <div class="catogry ps-3" style="margin-top: -10px">
+              <p class="carcatogry font1" style="color:rgba(144, 163, 191, 1);">Sport</p>
+            </div>
+            <div class="cardimage text-center mt-4">
+              <img src="../../../assets/images/car.png" class="card-img-top" alt="..." style="width: 230px;">
+            </div>
+            <div class="card-body mt-4">
+             <div class="threeitems">
+               <div><fa-icon  class="train " [icon]="faTrain"></fa-icon><span>90L</span></div>
+               <div><fa-icon  class="train " [icon]="faGear"></fa-icon><span>Manual</span></div>
+               <div><fa-icon  class="train " [icon]="faUser"></fa-icon><span>4People</span></div>
+             </div>
+          </div>
+           <div class="cardetail mb-3" style="color: rgba(26, 32, 44, 1);">
+               <div class="ps-2"><p><span>pkr.</span><span class="carprice">4000/</span><span style="font-weight: bold;opacity: 0.5;">day</span></p></div>
+               <button router class="btn pe-3" style="background: rgba(53, 99, 233, 1);color: white;  font-family: 'Jakarta Sans', sans-serif;margin-right: 15px;" routerLink="/carrentdetail">Rent Now</button>
+             </div>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-6col-12">
+          <div class="card mt-5">
+            <div class="title pt-2">
+                <p  class="font1" style="color: rgba(26, 32, 44, 1);font-weight: bold; padding-left: 15px;">Wagon-R</p>
+                <fa-icon  class="heart font1" [icon]="faHeart"  style="font-weight: bold;padding-top: -12px;padding-right: 15px;"></fa-icon>
+            </div>
+            <div class="catogry ps-3" style="margin-top: -10px">
+              <p class="carcatogry font1" style="color:rgba(144, 163, 191, 1);">Wagon-R</p>
+            </div>
+            <div class="cardimage text-center mt-3">
+              <img src="../../../assets/images/car (1).png" class="card-img-top" alt="..." style="width: 230px;">
+            </div>
+            <div class="card-body mt-4">
+             <div class="threeitems">
+               <div><fa-icon  class="train " [icon]="faTrain"></fa-icon><span>90L</span></div>
+               <div><fa-icon  class="train " [icon]="faGear"></fa-icon><span>Manual</span></div>
+               <div><fa-icon  class="train " [icon]="faUser"></fa-icon><span>4People</span></div>
+             </div>
+          </div>
+           <div class="cardetail mb-3" style="color: rgba(26, 32, 44, 1);">
+               <div class="ps-2"><p><span>pkr.</span><span class="carprice">3500/</span><span style="font-weight: bold;opacity: 0.5;">day</span></p></div>
+               <button class="btn pe-3" style="background: rgba(53, 99, 233, 1);color: white;  font-family: 'Jakarta Sans', sans-serif;margin-right: 15px;" routerLink="/carrentdetail">Rent Now</button>
+             </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6col-12">
+            <div class="card mt-5">
+              <div class="title pt-2">
+                  <p  class="font1" style="color: rgba(26, 32, 44, 1);font-weight: bold; padding-left: 15px;">Swift</p>
+                  <fa-icon  class="heart font1" [icon]="faHeart"  style="font-weight: bold;padding-top: -4px;padding-right: 15px;"></fa-icon>
+              </div>
+              <div class="catogry ps-3" style="margin-top: -10px">
+                <p class="carcatogry font1" style="color:rgba(144, 163, 191, 1);">Sport</p>
+              </div>
+              <div class="cardimage text-center mt-4">
+                <img src="../../../assets/images/car.png" class="card-img-top" alt="..." style="width: 230px;">
+              </div>
+              <div class="card-body mt-4">
+               <div class="threeitems">
+                 <div><fa-icon  class="train " [icon]="faTrain"></fa-icon><span>90L</span></div>
+                 <div><fa-icon  class="train " [icon]="faGear"></fa-icon><span>Manual</span></div>
+                 <div><fa-icon  class="train " [icon]="faUser"></fa-icon><span>4People</span></div>
+               </div>
+            </div>
+             <div class="cardetail mb-3" style="color: rgba(26, 32, 44, 1);">
+                 <div class="ps-2"><p><span>pkr.</span><span class="carprice">4000/</span><span style="font-weight: bold;opacity: 0.5;">day</span></p></div>
+                 <button class="btn pe-3" style="background: rgba(53, 99, 233, 1);color: white;  font-family: 'Jakarta Sans', sans-serif;margin-right: 15px;" routerLink="/carrentdetail">Rent Now</button>
+               </div>
+            </div>
+          </div>
+
+         <div class="col-lg-4 col-md-6col-12">
+          <div class="card mt-5">
+            <div class="title pt-2">
+                <p  class="font1" style="color: rgba(26, 32, 44, 1);font-weight: bold; padding-left: 15px;">Wagon-R</p>
+                <fa-icon  class="heart font1" [icon]="faHeart"  style="font-weight: bold;padding-top: -12px;padding-right: 15px;"></fa-icon>
+            </div>
+            <div class="catogry ps-3" style="margin-top: -10px">
+              <p class="carcatogry font1" style="color:rgba(144, 163, 191, 1);">Sport</p>
+            </div>
+            <div class="cardimage text-center">
+                <img src="../../../assets/images/car (1).png" class="card-img-top" alt="..." style="width: 230px;">
+            </div>
+            <div class="card-body mt-5">
+             <div class="threeitems">
+               <div><fa-icon  class="train " [icon]="faTrain"></fa-icon><span>90L</span></div>
+               <div><fa-icon  class="train " [icon]="faGear"></fa-icon><span>Manual</span></div>
+               <div><fa-icon  class="train " [icon]="faUser"></fa-icon><span>4People</span></div>
+             </div>
+          </div>
+           <div class="cardetail mb-3" style="color: rgba(26, 32, 44, 1);">
+               <div class="ps-2"><p><span>pkr.</span><span class="carprice">3000/</span><span style="font-weight: bold;opacity: 0.5;">day</span></p></div>
+               <button class="btn pe-3" style="background: rgba(53, 99, 233, 1);color: white;  font-family: 'Jakarta Sans', sans-serif;margin-right: 15px;" routerLink="/carrentdetail">Rent Now</button>
+             </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6col-12">
+            <div class="card mt-5">
+              <div class="title pt-2">
+                  <p  class="font1" style="color: rgba(26, 32, 44, 1);font-weight: bold; padding-left: 15px;">Swift</p>
+                  <fa-icon  class="heart font1" [icon]="faHeart"  style="font-weight: bold;padding-top: -4px;padding-right: 15px;"></fa-icon>
+              </div>
+              <div class="catogry ps-3" style="margin-top: -10px">
+                <p class="carcatogry font1" style="color:rgba(144, 163, 191, 1);">Sport</p>
+              </div>
+              <div class="cardimage text-center mt-4">
+                <img src="../../../assets/images/car.png" class="card-img-top" alt="..." style="width: 230px;">
+              </div>
+              <div class="card-body mt-4">
+               <div class="threeitems">
+                 <div><fa-icon  class="train " [icon]="faTrain"></fa-icon><span>90L</span></div>
+                 <div><fa-icon  class="train " [icon]="faGear"></fa-icon><span>Manual</span></div>
+                 <div><fa-icon  class="train " [icon]="faUser"></fa-icon><span>4People</span></div>
+               </div>
+            </div>
+             <div class="cardetail mb-3" style="color: rgba(26, 32, 44, 1);">
+                 <div class="ps-2"><p><span>pkr.</span><span class="carprice">4000/</span><span style="font-weight: bold;opacity: 0.5;">day</span></p></div>
+                 <button class="btn pe-3" style="background: rgba(53, 99, 233, 1);color: white;  font-family: 'Jakarta Sans', sans-serif;margin-right: 15px;" routerLink="/carrentdetail">Rent Now</button>
+               </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6col-12">
+            <div class="card mt-5">
+              <div class="title pt-2">
+                  <p  class="font1" style="color: rgba(26, 32, 44, 1);font-weight: bold; padding-left: 15px;">Wagon-R</p>
+                  <fa-icon  class="heart font1" [icon]="faHeart"  style="font-weight: bold;padding-top: -12px;padding-right: 15px;"></fa-icon>
+              </div>
+              <div class="catogry ps-3" style="margin-top: -10px">
+                <p class="carcatogry font1" style="color:rgba(144, 163, 191, 1);">Sport</p>
+              </div>
+              <div class="cardimage text-center mt-3">
+                <img src="../../../assets/images/car (1).png" class="card-img-top" alt="..." style="width: 230px;">
+              </div>
+              <div class="card-body mt-4">
+               <div class="threeitems">
+                 <div><fa-icon  class="train " [icon]="faTrain"></fa-icon><span>90L</span></div>
+                 <div><fa-icon  class="train " [icon]="faGear"></fa-icon><span>Manual</span></div>
+                 <div><fa-icon  class="train " [icon]="faUser"></fa-icon><span>4People</span></div>
+               </div>
+            </div>
+             <div class="cardetail mb-3" style="color: rgba(26, 32, 44, 1);">
+                 <div class="ps-2"><p><span>pkr.</span><span class="carprice">3500/</span><span style="font-weight: bold;opacity: 0.5;">day</span></p></div>
+                 <button class="btn pe-3" style="background: rgba(53, 99, 233, 1);color: white;  font-family: 'Jakarta Sans', sans-serif;margin-right: 15px;" routerLink="/carrentdetail">Rent Now</button>
+               </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6col-12">
+            <div class="card mt-5">
+              <div class="title pt-2">
+                  <p  class="font1" style="color: rgba(26, 32, 44, 1);font-weight: bold; padding-left: 15px;">Swift</p>
+                  <fa-icon  class="heart font1" [icon]="faHeart"  style="font-weight: bold;padding-top: -12px;padding-right: 15px;"></fa-icon>
+              </div>
+              <div class="catogry ps-3" style="margin-top: -10px">
+                <p class="carcatogry font1" style="color:rgba(144, 163, 191, 1);">Sedan</p>
+              </div>
+              <div class="cardimage text-center">
+                  <img src="../../../assets/images/car.png" class="card-img-top" alt="..." style="width: 230px;">
+              </div>
+              <div class="card-body mt-3">
+               <div class="threeitems">
+                 <div><fa-icon  class="train " [icon]="faTrain"></fa-icon><span>90L</span></div>
+                 <div><fa-icon  class="train " [icon]="faGear"></fa-icon><span>Manual</span></div>
+                 <div><fa-icon  class="train " [icon]="faUser"></fa-icon><span>4People</span></div>
+               </div>
+            </div>
+             <div class="cardetail mb-3" style="color: rgba(26, 32, 44, 1);">
+                 <div class="ps-2"><p><span>pkr.</span><span class="carprice">3500/</span><span style="font-weight: bold;opacity: 0.5;">day</span></p></div>
+                 <button class="btn pe-3" style="background: rgba(53, 99, 233, 1);color: white;  font-family: 'Jakarta Sans', sans-serif;margin-right: 15px;" routerLink="/carrentdetail">Rent Now</button>
+               </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 col-md-6col-12">
+            <div class="card mt-5">
+              <div class="title pt-2">
+                  <p  class="font1" style="color: rgba(26, 32, 44, 1);font-weight: bold; padding-left: 15px;">Wagon-R</p>
+                  <fa-icon  class="heart font1" [icon]="faHeart"  style="font-weight: bold;padding-top: -12px;padding-right: 15px;"></fa-icon>
+              </div>
+              <div class="catogry ps-3" style="margin-top: -10px">
+                <p class="carcatogry font1" style="color:rgba(144, 163, 191, 1);">Wagon-R</p>
+              </div>
+              <div class="cardimage text-center mt-3">
+                <img src="../../../assets/images/car (1).png" class="card-img-top" alt="..." style="width: 230px;">
+              </div>
+              <div class="card-body mt-4">
+               <div class="threeitems">
+                 <div><fa-icon  class="train " [icon]="faTrain"></fa-icon><span>90L</span></div>
+                 <div><fa-icon  class="train " [icon]="faGear"></fa-icon><span>Manual</span></div>
+                 <div><fa-icon  class="train " [icon]="faUser"></fa-icon><span>4People</span></div>
+               </div>
+            </div>
+             <div class="cardetail mb-3" style="color: rgba(26, 32, 44, 1);">
+                 <div class="ps-2"><p><span>pkr.</span><span class="carprice">3500/</span><span style="font-weight: bold;opacity: 0.5;">day</span></p></div>
+                 <button class="btn pe-3" style="background: rgba(53, 99, 233, 1);color: white;  font-family: 'Jakarta Sans', sans-serif;margin-right: 15px;" routerLink="/carrentdetail">Rent Now</button>
+               </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6col-12">
+          <div class="card mt-5">
+            <div class="title pt-2">
+                <p  class="font1" style="color: rgba(26, 32, 44, 1);font-weight: bold; padding-left: 15px;">Swift</p>
+                <fa-icon  class="heart font1" [icon]="faHeart"  style="font-weight: bold;padding-top: -4px;padding-right: 15px;"></fa-icon>
+            </div>
+            <div class="catogry ps-3" style="margin-top: -10px">
+              <p class="carcatogry font1" style="color:rgba(144, 163, 191, 1);">Sport</p>
+            </div>
+            <div class="cardimage text-center mt-4">
+              <img src="../../../assets/images/car.png" class="card-img-top" alt="..." style="width: 230px;">
+            </div>
+            <div class="card-body mt-4">
+             <div class="threeitems">
+               <div><fa-icon  class="train " [icon]="faTrain"></fa-icon><span>90L</span></div>
+               <div><fa-icon  class="train " [icon]="faGear"></fa-icon><span>Manual</span></div>
+               <div><fa-icon  class="train " [icon]="faUser"></fa-icon><span>4People</span></div>
+             </div>
+          </div>
+           <div class="cardetail mb-3" style="color: rgba(26, 32, 44, 1);">
+               <div class="ps-2"><p><span>pkr.</span><span class="carprice">4000/</span><span style="font-weight: bold;opacity: 0.5;">day</span></p></div>
+               <button class="btn pe-3" style="background: rgba(53, 99, 233, 1);color: white;  font-family: 'Jakarta Sans', sans-serif;margin-right: 15px;" routerLink="/carrentdetail">Rent Now</button>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>

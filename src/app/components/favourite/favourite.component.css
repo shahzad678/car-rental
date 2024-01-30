@@ -1,0 +1,49 @@
+.favourite {
+  width: auto;
+  height: 55px;
+  background: rgba(255, 255, 255, 1);
+
+  border-radius: 7px;
+  margin-top: 12px;
+}
+.maincontainer {
+  background: rgba(246, 247, 249, 1);
+}
+/* ..............card */
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.heart {
+  color: red;
+}
+.catogry {
+  opacity: 0.5;
+  margin-top: -22px;
+}
+.threeitems {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.5;
+}
+.card {
+  border: none;
+}
+.cardetail {
+  display: flex;
+  justify-content: space-between;
+}
+.carprice {
+  font-size: 20px;
+  font-weight: bold;
+}
+.cardimage {
+  height: 150px;
+}
+.font1 {
+  font-family: "Jakarta Sans", sans-serif;
+  /* Add other styles as needed */
+}
+img {
+ width: 187px;   
+}
